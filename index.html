@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400&display=swap" rel="stylesheet">
+    <title>Resume</title>
+</head>
+<body class="tracking-wider">
+    <div class="flex justify-between items-center p-10 bg-gray-700 text-white">
+        <div class="">
+            <h1 class="mb-2 text-5xl uppercase">Prijin Prakash</h1>
+            <p class="mb-4">Python Developer</p>
+            <p><i class="fas fa-map-marker-alt mr-2"></i>Thiruvananthapuram, Kerala, India</p>
+        </div>
+        <div class="grid">
+            <a href="mailto:prakashprijin@gmail.com"><i class="fas fa-envelope mr-2"></i>prakashprijin@gmail.com</a>
+            <a href="tel:+917012755971"><i class="fas fa-mobile-alt mr-2 mt-3"></i>+91 7012755971</a>
+            <a href="https://www.linkedin.com/in/prijin-prakash" target="_new">
+                <i class="fab fa-linkedin-in mr-2 mt-3"></i>linkedin.com/in/prijin-prakash
+            </a>
+        </div>
+    </div>
+    <div class="p-10 grid grid-cols-3 gap-20">
+        <div class="col-span-2">
+            <h2 class="uppercase text-blue-800 text-xl">experience</h2>
+            <div class="mt-4">
+                <p class="text-lg font-bold text-gray-700">Techversant Infotech Pvt. Ltd, Cochin, Kerala</p>
+                <p class="my-1 text-gray-600">Software Engineer</p>
+                <p class="uppercase text-sm">march 2021 - present</p>
+                <ul class="mt-4 ml-4 list-disc space-y-1">
+                    <li>Added automated connection withdrawal feature to an existing linkedinscrapper application. Other features include automated connection request sending, messaging prospects, checking for prospect replies. (tools used - <b>django</b>, <b>selenium</b> and <b>MySQL</b>).</li>
+                    <li>Developed a script to scrape vehicle details listed on a Turkish website using <b>requests</b> and <b>Beautiful Soup</b> libraries. Used multithreading to send multiple requests concurrently and hence reduced the overall execution time.</li>
+                    <li>Assisting in debugging and optimization of a bible reference matching algorithm that uses a regex validation method.</li>
+                </ul>
+            </div>
+            <div class="my-6">
+                <p class="text-lg font-bold text-gray-700">Reizend IT Consultants, Thiruvananthapuram, Kerala</p>
+                <p class="my-1 text-gray-600">Software Engineer</p>
+                <p class="uppercase text-sm">september 2019 - december 2020</p>
+                <ul class="mt-4 ml-4 list-disc space-y-1">
+                    <li>Assisted in developing a Production Planning Automation software using python, for a leading footwear manufacturing company in India.</li>
+                    <li>Involved in Requirement Gathering, Estimation, Design, Implementation, Testing and Deployment of multiple projects.</li>
+                    <li>Developed web applications using <b>Django</b> framework’s MVT architecture. Developed front end using <b>JavaScript</b>, <b>Ajax</b>, <b>HTML</b> and <b>CSS</b>.</li>
+                </ul>
+            </div>
+            <div>
+                <p class="text-lg font-bold text-gray-700">Talrop Educations Pvt. Ltd, Thiruvananthapuram, Kerala</p>
+                <p class="my-1 text-gray-600">Software Engineer</p>
+                <p class="uppercase text-sm">august 2018 - july 2019</p>
+                <ul class="mt-4 ml-4 list-disc space-y-1">
+                    <li>Developed a management tool for the residential and commercial property managers in the United Kingdom to operate yearly service charges, perform budget preparation and do the accounting part.</li>
+                    <li>Developed the UI of the application using <b>HTML</b>, <b>AJAX</b>, <b>CSS</b>, <b>JavaScript</b> and <b>jQuery</b>.</li>
+                    <li>Developed the backend using <b>django</b> and apis using <b>django rest framework</b>. Used <b>PostgreSQL</b> for data management</li>
+                </ul>
+            </div>
+            <h2 class="uppercase text-blue-800 text-xl mt-10">education</h2>
+            <div class="mt-4">
+                <p class="text-lg font-bold text-gray-700">Govt. Engineering College, Bartonhill, Thiruvananthapuram</p>
+                <p class="my-1 text-gray-600">B.Tech Mechanical Engineering</p>
+                <p class="uppercase text-sm">august 2014 - july 2018</p>
+                <ul class="mt-4 ml-4 list-disc space-y-1">
+                    <li>CGPA 7.04</li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <h2 class="uppercase text-blue-800 text-xl">technical skills</h2>
+            <div class="mt-4">
+                <p class="text-lg font-bold text-gray-700">Programming Languages</p>
+                <p class="my-1 text-white flex flex-wrap">
+                    <span class="p-2 bg-gray-400 rounded m-1">Python</span>
+                    <span class="p-2 bg-gray-400 rounded m-1">JavaScript</span>
+                </p>
+            </div>
+            <div class="mt-2">
+                <p class="text-lg font-bold text-gray-700">Web Technologies</p>
+                <p class="my-1 text-white flex flex-wrap">
+                    <span class="p-2 bg-gray-400 rounded m-1">Django</span>
+                    <span class="p-2 bg-gray-400 rounded m-1">Flask</span>
+                    <span class="p-2 bg-gray-400 rounded m-1">REST</span>
+                    <span class="p-2 bg-gray-400 rounded m-1">Ajax</span>
+                    <span class="p-2 bg-gray-400 rounded m-1">jQuery</span>
+                    <span class="p-2 bg-gray-400 rounded m-1">Tailwindcss</span>
+                    <span class="p-2 bg-gray-400 rounded m-1">Svelte</span>
+                </p>
+            </div>
+            <div class="mt-2">
+                <p class="text-lg font-bold text-gray-700">Data Management</p>
+                <p class="my-1 text-white flex flex-wrap">
+                    <span class="p-2 bg-gray-400 rounded m-1">MySQL</span>
+                    <span class="p-2 bg-gray-400 rounded m-1">PostgreSQL</span>
+                    <span class="p-2 bg-gray-400 rounded m-1">Redis</span>
+                </p>
+            </div>
+            <div class="mt-2">
+                <p class="text-lg font-bold text-gray-700">Miscellaneous</p>
+                <p class="my-1 text-white flex flex-wrap">
+                    <span class="p-2 bg-gray-400 rounded m-1">Git</span>
+                    <span class="p-2 bg-gray-400 rounded m-1">Nginx</span>
+                    <span class="p-2 bg-gray-400 rounded m-1">Selenium</span>
+                    <span class="p-2 bg-gray-400 rounded m-1">Beautiful Soup</span>
+                </p>
+            </div>
+            <h2 class="uppercase text-blue-800 text-xl mt-10">personal projects</h2>
+            <div class="mt-4">
+                <p class="text-lg font-bold text-gray-700">Teachers Unity</p>
+                <p class="my-1 text-gray-600">Responsive Static Website</p>
+                <ul class="mt-4 ml-4 list-disc space-y-1">
+                    <li>A hobby website built with tailwindcss and deployed on netlify cdn.</li>
+                    <li>Landing Page - <a href="https://teachers-unity.netlify.app/" class="text-blue-600" target="_new">teachers-unity.netlify.app</a></li>
+                    <li>Vendor Dashboard - <a href="https://teachers-unity.netlify.app/vendor-home.html" class="text-blue-600" target="_new">teachers-unity.netlify.app/vendor-home.html</a></li>
+                </ul>
+            </div>
+            <h2 class="uppercase text-blue-800 text-xl mt-10">awards</h2>
+            <div class="mt-4">
+                <p class="text-lg font-bold text-gray-700">Certified Django - Advanced</p>
+                <p class="my-1 text-gray-600"><i>From - </i><a href="https://cutshort.io/" class="text-blue-600" target="_new">CutShort</a></p>
+                <ul class="mt-4 ml-4 list-disc space-y-1">
+                    <li>Awarded for passing the skill assessment test in django</li>
+                    <li>Find the certificate here - <a href="https://cutshort.io/certificate/36675" target="_new" class="text-blue-600">cutshort.io/certificate/36675</a></li>
+                </ul>
+            </div>
+            <h2 class="uppercase text-blue-800 text-xl mt-10">languages</h2>
+            <div class="mt-4">
+                <ul class="mt-4 ml-4 list-disc space-y-1">
+                    <li>Malayalam - <i>Native</i></li>
+                    <li>English - <i>Professional working proficiency</i></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+<style>
+    body {
+        font-family: 'Roboto', sans-serif;
+    }
+</style>
+</html>
